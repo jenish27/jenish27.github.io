@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2016, 7:55:06 PM
+    Author     : pc
+*/
+
+.wrapper h1{
+    color:black;
+
+
+}
+
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:10px;
+
+
+
+}
+#title{
+
+    padding: 3px;
+    padding-top: 50px;
+    padding-left: 10px;
+    
+    text-decoration: underline;
+    color:orange;
+    font-weight: bold;
+        
+}
+.EDUCATION{
+
+
+    max-width: 800px;
+
+    margin:0 auto;
+    padding: 10px 1%;
+    margin-top: 20px;
+    padding-left: 10px;
+    
+
+}
+.CourseWork{
+    max-width: 800px;
+
+    margin:0 auto;
+    padding: 10px 1%;
+ 
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    
+    
+
+}
+.CourseWork p{
+    
+    line-height: 200%;
+    
+}
+.Skills{
+     max-width: 800px;
+
+    margin:0 auto;
+    padding: 10px 1%;
+ 
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    
+    
+}
+.Skills p{
+    line-height: 200%;
+}
