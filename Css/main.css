@@ -1,0 +1,195 @@
+
+
+header {
+
+  
+  margin: 0 0 30px 0;
+  padding: 10px 0 0 0;
+ margin:0px;
+ 
+      
+  
+}
+
+
+.title,.title2 {
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  
+  
+}
+
+
+.title {
+   padding-top: 10px;
+    
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+.title2{
+  padding-bottom: 10px;
+    
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 40px 0 0;
+
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+ 
+}
+
+nav li {
+  display: inline-block;
+  
+}
+
+nav a {
+  font-weight: 800;
+  text-decoration: none;
+  
+  padding: 15px 10px;
+}
+
+
+
+
+/**********************************
+Color
+***********************************/
+
+ header {
+  background: #f16529;
+  border-color: #599a68;
+}
+
+/* nav background on mobile */
+nav {
+  background: #e44d26;
+}
+nav li a{
+    color:white;
+    
+}
+
+/* logo text */
+h1, h2{
+  color: #fff;
+}
+
+.main-body {
+    max-width: 80%;
+    
+    margin: 0 auto;
+    
+    
+}
+.main-body h1{
+       color:black;
+       font-weight: lighter;
+       margin-top: 50px;
+       text-decoration: underline;
+       color:orange;
+       font-weight: bold;
+       font-size: 40px;
+       padding-top: 10px;
+       margin-left: 10px;
+       
+       
+        
+   }
+   .main-body p{
+       
+   
+    margin:0 auto;
+    padding: 10px 1%;
+    margin-top: 20px;
+    padding-left: 10px;
+    line-height: 160%;
+    
+
+       
+   }
+   .selected{
+       text-decoration: underline ;
+       
+       
+   }
+
+@media screen and (min-width: 800px) {
+
+    header{
+     width: 100%;
+      margin:0px;
+      
+    border-bottom: 10px solid #e44d26;
+    
+    }
+    .title,.title2{
+       
+     
+       
+        text-align: left;
+        margin-left: 100px;
+        
+        
+        
+    }
+  
+    .title{
+        font-size: 30px;
+    }
+  
+    nav{
+   
+        
+    background:none;
+    
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+    margin:-65px;
+    margin-right: 20px;
+   
+    }
+    .main-body p{
+   
+        
+       
+     
+     font: 16px/26px sans-serif, serif;
+        
+     font-size: 25px;
+      line-height: 200%;
+   }
+   .main-body h1{
+       font-size: 80px;
+   }
+  
+}
+
+
+
